@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Action/Query Buider</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.9925,0.5 C3.8525,0.5 0.5,3.86 0.5,8 C0.5,12.14 3.8525,15.5 7.9925,15.5 C12.14,15.5 15.5,12.14 15.5,8 C15.5,3.86 12.14,0.5 7.9925,0.5 Z M8,14 C4.685,14 2,11.315 2,8 C2,4.685 4.685,2 8,2 C11.315,2 14,4.685 14,8 C14,11.315 11.315,14 8,14 Z M8.375,4.25 L7.25,4.25 L7.25,8.75 L11.1875,11.1125 L11.75,10.19 L8.375,8.1875 L8.375,4.25 Z" id="path-1"></path>
+    </defs>
+    <g id="2Gether" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Open-Event---About" transform="translate(-17.000000, -246.000000)">
+            <g id="Icons/Action/Query-Buider" transform="translate(17.000000, 246.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#4FBD98" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

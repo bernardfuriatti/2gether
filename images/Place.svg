@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Maps/Location/Place</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.25,0.5 C3.20928571,0.5 0.75,2.8475 0.75,5.75 C0.75,9.6875 6.25,15.5 6.25,15.5 C6.25,15.5 11.75,9.6875 11.75,5.75 C11.75,2.8475 9.29071429,0.5 6.25,0.5 L6.25,0.5 Z M6.25,7.625 C5.16571429,7.625 4.28571429,6.785 4.28571429,5.75 C4.28571429,4.715 5.16571429,3.875 6.25,3.875 C7.33428571,3.875 8.21428571,4.715 8.21428571,5.75 C8.21428571,6.785 7.33428571,7.625 6.25,7.625 L6.25,7.625 Z" id="path-1"></path>
+    </defs>
+    <g id="2Gether" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Open-Event---About" transform="translate(-19.000000, -286.000000)">
+            <g id="Icons/Maps/Location/Place" transform="translate(19.000000, 286.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#4FBD98" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

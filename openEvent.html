@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>2Gether - Seja um rolêzero de primeira!</title>
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+        <!-- Link para style CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Link para style CSS - Mobile -->
+        <link rel="stylesheet" href="css/styles-mobile-openEvent.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+
+        <section class="firstSection">
+            <div class="firstSection-container">
+
+
+                <div class="firstSection-container-actionButton">
+                    <img src="images/Left.svg" alt="" value="Voltar" onClick="history.go(-1)">
+                    <img src="images/Unchecked.svg" alt="">
+                </div>
+
+                <div class="firstSection-container-imageEvent">
+                    <img src="images/imageEvent/Villamix.png" alt="imageEvent">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="secondSection">
+            <div class="primary-info-container">
+                <h1 id="nameEvent">Villamix Festival 2017</h1>
+                <h4 id="whoOrganize">Organizado por Na Folia BH</h4>
+                <div class="dateEvent">
+                    <img src="images/Date.svg" alt="">
+                    <h4>Sábado, 8 de abril às 16:00 - 0:00</h4>
+                </div>
+                <div class="localEvent">
+                    <img src="images/Local.svg" alt="">
+                    <div class="localEvent-info">
+                        <h4 id="nameLocal">Mega Space</h4>
+                        <h5 id="whereLocal">Av. das Indústrias, 3000 - Santa Luzia</h5>
+                    </div>
+
+                </div>
+
+                <div class="interestEvent">
+                    <h4 id="interestEvent-vidaNoturna">vida noturna</h4>
+                    <h4 id="interestEvent-music">music</h4>
+                    <h4 id="interestEvent-sertanejo">sertanejo</h4>
+                    <h4 id="interestEvent-dance">dance</h4>
+                    <h4 id="interestEvent-show">show</h4>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="thirdSection">
+            <div class="thirdSection-tab">
+                <div id="tab-about" onclick="aboutOpen()">
+                    <h4>About</h4>
+                </div>
+                <div id="tab-price" onclick="priceOpen()">
+                    <h4>Price</h4>
+                </div>
+
+            </div>
+
+            <div id="about-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla varius pulvinar. Quisque dictum, ante nec hendrerit suscipit, urna erat fringilla leo, at pretium mi dui sit amet dui. Maecenas urna elit, gravida sit amet vestibulum aliquet, tincidunt at velit.<br>
+                Duis vel dolor at tortor vestibulum accumsan a in dolor. Donec condimentum, magna id varius molestie, neque mauris facilisis felis, ut cursus nisi risus eget odio. Donec pellentesque enim vel ultrices elementum. Aliquam aliquam sem a augue vestibulum sodales. Nam rhoncus lobortis feugiat.<br>
+                Curabitur consequat commodo lacus, vel rhoncus mauris porttitor a. Proin vitae nunc eu turpis facilisis fermentum sed ut lacus. Pellentesque eros ante, aliquet eget ligula semper, mollis finibus leo. Maecenas dictum velit eget nisi dapibus laoreet. Aenean ut convallis arcu. Curabitur lorem leo, cursus viverra nisl a, interdum gravida dolor.</p>
+            </div>
+
+            <div id="price-content">
+                <div class="price">
+                    <div class="female-male">
+                        <img src="images/typeGenre/fameleMale.svg" alt="">
+
+                    </div>
+                    <div class="infoPrice">
+                        <div class="title-price">
+                            <h3 id="namePrice" >Villa Vip</h3>
+                            <h4 id="valuePrice">R$60,00</h4>
+                        </div>
+                        <div class="description">
+                            <p>Open bar com Água, Cerveja Brahma, refrigerante.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price">
+                    <div class="female-male">
+                        <img src="images/typeGenre/male.svg" alt="">
+
+                    </div>
+                    <div class="infoPrice">
+                        <div class="title-price">
+                            <h3 id="namePrice" >Villa Extra</h3>
+                            <h4 id="valuePrice">R$120,00</h4>
+                        </div>
+                        <div class="description">
+                            <p>Open bar com Água, Cerveja Brahma, refrigerante.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price">
+                    <div class="female-male">
+                        <img src="images/typeGenre/famele.svg" alt="">
+
+                    </div>
+                    <div class="infoPrice">
+                        <div class="title-price">
+                            <h3 id="namePrice" >Villa Prime</h3>
+                            <h4 id="valuePrice">R$180,00</h4>
+                        </div>
+                        <div class="description">
+                            <p>Localização atrás do Palco e com acesso a área exclusiva na frente do Palco.
+OPEN BAR com Água, cerveja Brahma, vodka importada, espumante, refrigerante, sucos, whisk 12 anos e Open food.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price">
+                    <div class="female-male">
+                        <img src="images/typeGenre/fameleMale.svg" alt="">
+
+                    </div>
+                    <div class="infoPrice">
+                        <div class="title-price">
+                            <h3 id="namePrice" >Villa Extra</h3>
+                            <h4 id="valuePrice">R$220,00</h4>
+                        </div>
+                        <div class="description">
+                            <p>Localização atrás do Palco e com acesso a área exclusiva na frente do Palco.
+OPEN BAR com Água, cerveja Brahma, vodka importada, espumante, refrigerante, sucos, whisk 12 anos e Open food.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <script>
+            function aboutOpen() {
+                document.getElementById("price-content").style.display = "none";
+                document.getElementById("about-content").style.display = "block";
+                document.getElementById("tab-about").style.borderBottom = "solid #4fbd98";
+                document.getElementById("tab-price").style.borderBottom = "none";
+            }
+            function priceOpen() {
+                document.getElementById("about-content").style.display = "none";
+                document.getElementById("price-content").style.display = "block";
+                document.getElementById("tab-price").style.borderBottom = "solid #4fbd98";
+                document.getElementById("tab-about").style.borderBottom = "none";
+
+            }
+
+
+        </script>
+    </body>
+</html>

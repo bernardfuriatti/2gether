@@ -1,0 +1,60 @@
+/* Tamanho padrão para tablets */
+@@media only screen and (max-width: 768px) {
+
+}
+
+/* Tamanho padrão para mobiles */
+@media only screen and (max-width: 480px){
+
+    body{
+        background-color: #3B4358;
+        margin: 0px;
+
+        overflow-x:hidden;
+
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .firstSection-containerBottom{
+        height: 36px;
+    }
+
+
+    #test-swipe-1 h4{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    	font-size: 12px;
+
+        color: white;
+    }
+    .test-swipe-1-title{
+        margin: 16px 16px 8px 16px;
+    }
+
+    .test-swipe-2-title{
+        margin: 16px 16px 8px 16px;
+    }
+
+
+    .row{
+        margin: 0;
+    }
+
+    .test-swipe-1-title h4{
+        display: block;
+        text-align: left;
+    }
+    #test-swipe-1-title-vermais h4{
+        display: block;
+        text-align: right;
+    }
+
+    .tabs {
+        background-color: #4FBD98;
+    }
+
+
+}

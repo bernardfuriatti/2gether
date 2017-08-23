@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+        <!-- Link para style CSS - Mobile -->
+        <link rel="stylesheet" href="css/styles-mobile.css">
+        <link rel="stylesheet" href="css/styles-mobile-menu.css">
+        <link rel="stylesheet" href="css/styles-mobile-place.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <nav id="menu">
+           <div id="menu-topBar">
+               <img onclick="menuClose();" src="images/close.svg" alt="fechar">
+               <div id="menu-transition"></div>
+           </div>
+           <div id="menu-imageUser">
+               <img src="images/imageUser/BernardFuriatti.png" alt="imageUser">
+           </div>
+           <div class="menu-content">
+               <ul id="menu-primary-item">
+                   <div class="menu-primary-item-div">
+                       <a href="index.html">
+                           <p>EVENT</p>
+                       </a>
+                   </div>
+                   <div class="menu-primary-item-div">
+                       <a href="places.html">
+                           <p>PLACES</p>
+                       </a>
+                   </div>
+                   <div class="menu-primary-item-div">
+                       <a href="discover.html">
+                           <p>GROUP</p>
+                       </a>
+                   </div>
+                   <div class="menu-primary-item-div">
+                       <a href="http://localhost:8888/v0.3.4/discover.html">
+                           <p>DISCOVER</p>
+                       </a>
+                   </div>
+               </ul>
+               <ul id="menu-second-item">
+                   <div class="menu-primary-item-div">
+                       <a href="*">
+                           <p>SETTINGS</p>
+                       </a>
+                   </div>
+                   <div class="menu-primary-item-div">
+                       <a href="*">
+                           <p>LOG OUT</p>
+                       </a>
+                   </div>
+               </ul>
+           </div>
+       </nav>
+
+        <section class="firstSection">
+
+            <div class="firstSection-containerTop">
+                <img onclick="menuOpen()" id="menu-open" src="images/Menu.svg" alt="buttonMenu">
+                <img src="images/Search.svg" alt="buttonSearch">
+
+            </div>
+
+            <div class="firstSection-containerBottom">
+                <div class="containerBottom-tabs">
+
+                    <ul id="tabs-swipe-demo" class="tabs" style="height = 36px;">
+                        <li class="tab col s3"><a class="active" href="#test-swipe-1">All</a></li>
+                        <li class="tab col s3"><a href="#test-swipe-2">Cult</a></li>
+                        <li class="tab col s3"><a href="#test-swipe-3">Food</a></li>
+                        <li class="tab col s3"><a href="#test-swipe-4">Games</a></li>
+                        <li class="tab col s3"><a href="#test-swipe-5">Music</a></li>
+                        <li class="tab col s3"><a href="#test-swipe-6">Nature</a></li>
+                    </ul>
+                    <div id="test-swipe-1" class="col s12">
+                        <div class="test-swipe-1-title">
+                            <div class="row">
+                                <div class="col s6">
+                                    <h4>Cult</h4>
+                                </div>
+                                <div class="col s6" id="test-swipe-1-title-vermais">
+                                    <h4>ver mais</h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="event-card" id="event-1">
+
+                            <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                            <div class="event-info-container">
+                                <div class="event-main">
+                                    <h3 id="nameEvent">BH Shopping</h3>
+                                    <h5 id="dateEvent">Shopping</h5>
+                                </div>
+
+                                <div class="event-place">
+                                    <img src="images/local.svg" alt="Icon Local">
+                                    <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card" id="event-1">
+
+                            <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                            <div class="event-info-container">
+                                <div class="event-main">
+                                    <h3 id="nameEvent">BH Shopping</h3>
+                                    <h5 id="dateEvent">Shopping</h5>
+                                </div>
+
+                                <div class="event-place">
+                                    <img src="images/local.svg" alt="Icon Local">
+                                    <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card" id="event-1">
+
+                            <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                            <div class="event-info-container">
+                                <div class="event-main">
+                                    <h3 id="nameEvent">BH Shopping</h3>
+                                    <h5 id="dateEvent">Shopping</h5>
+                                </div>
+
+                                <div class="event-place">
+                                    <img src="images/local.svg" alt="Icon Local">
+                                    <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card" id="event-1">
+
+                            <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                            <div class="event-info-container">
+                                <div class="event-main">
+                                    <h3 id="nameEvent">BH Shopping</h3>
+                                    <h5 id="dateEvent">Shopping</h5>
+                                </div>
+
+                                <div class="event-place">
+                                    <img src="images/local.svg" alt="Icon Local">
+                                    <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+                        <div class="test-swipe-1-title">
+                            <div class="row">
+                                <div class="col s6">
+                                    <h4>Food</h4>
+                                </div>
+                                <div class="col s6" id="test-swipe-1-title-vermais">
+                                    <h4>ver mais</h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]Chalezinho.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Clube Chalezinho<</h3>
+                                        <h5 id="dateEvent">Night</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Professor Mário Werneck, 520/530</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]Chalezinho.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Clube Chalezinho<</h3>
+                                        <h5 id="dateEvent">Night</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Professor Mário Werneck, 520/530</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]Chalezinho.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Clube Chalezinho<</h3>
+                                        <h5 id="dateEvent">Night</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Professor Mário Werneck, 520/530</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]Chalezinho.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Clube Chalezinho<</h3>
+                                        <h5 id="dateEvent">Night</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Professor Mário Werneck, 520/530</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                    <div id="test-swipe-2" class="col s12">
+                        <div class="test-swipe-2-title">
+                            <div class="row">
+                                <div class="col s6">
+                                    <h4> </h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">BH Shopping</h3>
+                                        <h5 id="dateEvent">Shopping</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">BH Shopping</h3>
+                                        <h5 id="dateEvent">Shopping</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">BH Shopping</h3>
+                                        <h5 id="dateEvent">Shopping</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">BH Shopping</h3>
+                                        <h5 id="dateEvent">Shopping</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">BH Shopping</h3>
+                                        <h5 id="dateEvent">Shopping</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">BH Shopping</h3>
+                                        <h5 id="dateEvent">Shopping</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BHShopping.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">BH Shopping</h3>
+                                        <h5 id="dateEvent">Shopping</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Rodovia BR-356, 3049</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+                    <div id="test-swipe-3" class="col s12">
+
+                        <div class="test-swipe-2-title">
+                            <div class="row">
+                                <div class="col s6">
+                                    <h4> </h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="openEvent.html">
+                            <div class="event-list">
+                                <div class="event-card" id="event-1">
+
+                                    <img id="imageEvent" src="images/imageEvent/[icon]Chalezinho.png">
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h3 id="nameEvent">Clube Chalezinho<</h3>
+                                            <h5 id="dateEvent">Night</h5>
+                                        </div>
+
+                                        <div class="event-place">
+                                            <img src="images/local.svg" alt="Icon Local">
+                                            <h3 id="localEvent">Av. Professor Mário Werneck, 520/530</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="openEvent.html">
+                            <div class="event-list">
+                                <div class="event-card" id="event-1">
+
+                                    <img id="imageEvent" src="images/imageEvent/[icon]Chalezinho.png">
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h3 id="nameEvent">Clube Chalezinho<</h3>
+                                            <h5 id="dateEvent">Night</h5>
+                                        </div>
+
+                                        <div class="event-place">
+                                            <img src="images/local.svg" alt="Icon Local">
+                                            <h3 id="localEvent">Av. Professor Mário Werneck, 520/530</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="openEvent.html">
+                            <div class="event-list">
+                                <div class="event-card" id="event-1">
+
+                                    <img id="imageEvent" src="images/imageEvent/[icon]Chalezinho.png">
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h3 id="nameEvent">Clube Chalezinho<</h3>
+                                            <h5 id="dateEvent">Night</h5>
+                                        </div>
+
+                                        <div class="event-place">
+                                            <img src="images/local.svg" alt="Icon Local">
+                                            <h3 id="localEvent">Av. Professor Mário Werneck, 520/530</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="openEvent.html">
+                            <div class="event-list">
+                                <div class="event-card" id="event-1">
+
+                                    <img id="imageEvent" src="images/imageEvent/[icon]Chalezinho.png">
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h3 id="nameEvent">Clube Chalezinho<</h3>
+                                            <h5 id="dateEvent">Night</h5>
+                                        </div>
+
+                                        <div class="event-place">
+                                            <img src="images/local.svg" alt="Icon Local">
+                                            <h3 id="localEvent">Av. Professor Mário Werneck, 520/530</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="test-swipe-4" class="col s12">
+                        <div class="test-swipe-2-title">
+                            <div class="row">
+                                <div class="col s6">
+                                    <h4> </h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BilharesBrunswick.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Bilhares Brunswick<</h3>
+                                        <h5 id="dateEvent">Jogos</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Afonso Pena, 4172</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BilharesBrunswick.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Bilhares Brunswick<</h3>
+                                        <h5 id="dateEvent">Jogos</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Afonso Pena, 4172</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BilharesBrunswick.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Bilhares Brunswick<</h3>
+                                        <h5 id="dateEvent">Jogos</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Afonso Pena, 4172</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BilharesBrunswick.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Bilhares Brunswick<</h3>
+                                        <h5 id="dateEvent">Jogos</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Afonso Pena, 4172</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-list">
+                            <div class="event-card" id="event-1">
+
+                                <img id="imageEvent" src="images/imageEvent/[icon]BilharesBrunswick.png">
+
+                                <div class="event-info-container">
+                                    <div class="event-main">
+                                        <h3 id="nameEvent">Bilhares Brunswick<</h3>
+                                        <h5 id="dateEvent">Jogos</h5>
+                                    </div>
+
+                                    <div class="event-place">
+                                        <img src="images/local.svg" alt="Icon Local">
+                                        <h3 id="localEvent">Av. Afonso Pena, 4172</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div id="test-swipe-5" class="col s12">Test 2</div>
+                    <div id="test-swipe-6" class="col s12">Test 3</div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+    <script>
+        function menuOpen() {
+            document.getElementById("menu").style.display = "block";
+        }
+        function menuClose() {
+            document.getElementById("menu").style.display = "none";
+        }
+
+
+    </script>
+</html>

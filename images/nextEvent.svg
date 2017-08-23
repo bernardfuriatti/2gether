@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.33333333,8 L6,8 L6,11.3333333 L9.33333333,11.3333333 L9.33333333,8 L9.33333333,8 Z M8.66666667,0.666666667 L8.66666667,2 L3.33333333,2 L3.33333333,0.666666667 L2,0.666666667 L2,2 L1.33333333,2 C0.593333333,2 0.00666666667,2.6 0.00666666667,3.33333333 L0,12.6666667 C0,13.4 0.593333333,14 1.33333333,14 L10.6666667,14 C11.4,14 12,13.4 12,12.6666667 L12,3.33333333 C12,2.6 11.4,2 10.6666667,2 L10,2 L10,0.666666667 L8.66666667,0.666666667 L8.66666667,0.666666667 Z M10.6666667,12.6666667 L1.33333333,12.6666667 L1.33333333,5.33333333 L10.6666667,5.33333333 L10.6666667,12.6666667 L10.6666667,12.6666667 Z" id="path-1"></path>
+    </defs>
+    <g id="2Gether" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Place-Copy-4" transform="translate(-74.000000, -350.000000)">
+            <g id="Icons/Action/Date/Event-Copy-3" transform="translate(74.000000, 350.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#4FBD98" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

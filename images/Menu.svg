@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2Gether" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event" transform="translate(-16.000000, -18.000000)" fill="#FFFFFF">
+            <g id="Menu" transform="translate(16.000000, 18.000000)">
+                <g id="Group">
+                    <g transform="translate(9.000000, 7.000000) scale(-1, 1) translate(-9.000000, -7.000000) " id="Shape">
+                        <path d="M6.71616289,2 L17.2833489,2 C17.6787763,2 18,1.552 18,1 C18,0.448 17.6792645,0 17.2833489,0 L6.71616289,0 C6.32073553,0 6,0.448 6,1 C6,1.552 6.32024735,2 6.71616289,2 Z"></path>
+                        <path d="M16.9253731,5.625 L1.07462687,5.625 C0.481432836,5.625 0,6.073 0,6.625 C0,7.177 0.481432836,7.625 1.07462687,7.625 L16.9253731,7.625 C17.5185672,7.625 18,7.177 18,6.625 C18,6.073 17.5185672,5.625 16.9253731,5.625 Z"></path>
+                        <path d="M17.2828607,11.25 L6.71616289,11.25 C6.32073553,11.25 6,11.698 6,12.25 C6,12.802 6.32073553,13.25 6.71616289,13.25 L17.2833489,13.25 C17.6787763,13.25 18,12.802 18,12.25 C18,11.698 17.6787763,11.25 17.2828607,11.25 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

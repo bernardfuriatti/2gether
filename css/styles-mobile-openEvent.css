@@ -1,0 +1,281 @@
+/* Tamanho padrão para tablets */
+@@media only screen and (max-width: 768px) {
+
+}
+
+/* Tamanho padrão para mobiles */
+@media only screen and (max-width: 480px){
+
+    body{
+        background-color: #3B4358;
+        margin: 0px;
+
+        overflow-x:hidden;
+    }
+
+    /*
+    *   First Section
+    */
+    .firstSection{
+        position: relative;
+    }
+
+    .firstSection-container-actionButton{
+        position: absolute;
+        top: 0px;
+
+        display: flex;
+        justify-content: space-between;
+
+        width: 100vw;
+        height: 48px;
+
+        background: linear-gradient(-180deg, rgba(0,0,0,0.80) 0%, rgba(0,0,0,0.00) 100%);
+
+    }
+
+    .firstSection-container-actionButton img{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .firstSection-container-imageEvent img{
+        width: 100vw;
+    }
+
+    /*
+    *   Second Section
+    */
+    .secondSection{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .primary-info-container #nameEvent{
+        margin: 12px 0 4px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        letter-spacing: 1.02px;
+
+        color: white;
+    }
+    .primary-info-container #whoOrganize{
+        margin:0;
+
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .dateEvent{
+        display: flex;
+        align-items: center;
+
+        margin-top: 16px;
+    }
+
+    .dateEvent h4{
+        margin: 0 0 0 8px;
+
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .localEvent{
+        display: flex;
+        align-items: center;
+
+        margin-top: 12px;
+    }
+
+    .localEvent img{
+        height: 16px;
+        padding-right: 2px;
+    }
+
+    .localEvent-info h4{
+        margin: 0 0 2px 8px;
+
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .localEvent-info h5{
+        margin: 0 0 0 8px;
+
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .interestEvent{
+        margin-top: 16px;
+    }
+
+    .interestEvent h4{
+        display: inline-block;
+
+        padding: 6px 12px 6px 12px;
+        margin: 6px 0 0 0;
+
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+
+        opacity: 0.90;
+        border: 1px solid #FFFFFF;
+        border-radius: 85.71px;
+
+    }
+
+    /*
+    * Third Section
+    */
+    .thirdSection{
+        margin-top: 16px;
+        background-color: #414C60;
+    }
+
+    .thirdSection-tab{
+        display: flex;
+        justify-content: space-around;
+
+        width: 100vw;
+
+        background-color: #414C60;
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,0.10);
+    }
+
+
+    .thirdSection-tab div{
+        display: flex;
+        align-items: center;
+
+        height: 48px;
+        width: 80px;
+    }
+
+    .thirdSection-tab h4{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    	font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    	font-size: 14px;
+        letter-spacing: 1.02px;
+
+        color: white;
+    }
+
+    #tab-about {
+        border-bottom-color: #4fbd98;
+        border-bottom-style: solid; /* Conteúdo de about*/
+        border-width: 2px;
+    }
+
+    #about-content{
+        display: block; /*Conteúdo de about*/
+        margin: 12px 16px 16px 16px;
+    }
+
+    #about-content p{
+        opacity: 0.90;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        line-height: 20px;
+    }
+
+    #tab-price {
+        border-bottom-color: #4fbd98;
+        border-bottom-style: none;
+        border-width: 2px;
+    }
+    
+    #price-content{
+        display: none;/* Conteúdo de price*/
+    }
+
+    .price{
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        margin-left: 16px;
+        margin-right: 16px;
+
+
+    }
+
+    .price img{
+        height: 25px;
+        min-width: 29px;
+    }
+
+    .infoPrice{
+        width: 100vw;
+
+        margin-left: 12px;
+        margin-right: 16px;
+
+        border-bottom: 1px solid rgba(0,0,0,0.09);
+    }
+
+    .title-price{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin-top: 16px;
+        margin-bottom: 4px;
+
+
+    }
+
+    .title-price h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+        margin: 0;
+        letter-spacing: 1.02px;
+    }
+
+    .title-price h4{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #4FBD98;
+        letter-spacing: 1.02px;
+        margin: 0;
+    }
+
+    .description {
+
+    }
+
+    .description p {
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+    }
+
+
+}

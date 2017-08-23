@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Toggle/Star/Unchecked</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.5,5.93 L10.1075,5.465 L8,0.5 L5.8925,5.4725 L0.5,5.93 L4.595,9.4775 L3.365,14.75 L8,11.9525 L12.635,14.75 L11.4125,9.4775 L15.5,5.93 L15.5,5.93 Z M8,10.55 L5.18,12.2525 L5.93,9.0425 L3.44,6.8825 L6.725,6.5975 L8,3.575 L9.2825,6.605 L12.5675,6.89 L10.0775,9.05 L10.8275,12.26 L8,10.55 L8,10.55 Z" id="path-1"></path>
+    </defs>
+    <g id="2Gether" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Open-Event---About" transform="translate(-286.000000, -16.000000)">
+            <g id="Icons/Toggle/Star/Unchecked" transform="translate(286.000000, 16.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

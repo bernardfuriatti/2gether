@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="10px" viewBox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,0 C2.065,0 0.5,1.565 0.5,3.5 C0.5,6.125 4,10 4,10 C4,10 7.5,6.125 7.5,3.5 C7.5,1.565 5.935,0 4,0 L4,0 Z M4,4.75 C3.31,4.75 2.75,4.19 2.75,3.5 C2.75,2.81 3.31,2.25 4,2.25 C4.69,2.25 5.25,2.81 5.25,3.5 C5.25,4.19 4.69,4.75 4,4.75 L4,4.75 Z" id="path-1"></path>
+    </defs>
+    <g id="2Gether" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Event" transform="translate(-70.000000, -179.000000)">
+            <g id="Group-3-Copy-6" transform="translate(10.000000, 131.000000)">
+                <g id="Icons/Maps/Location/Place" transform="translate(60.000000, 48.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#4FBD98" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

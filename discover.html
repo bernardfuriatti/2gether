@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>2Gether - Seja um rolêzero de primeira!</title>
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+        <!-- Link para style CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Link para style CSS - Mobile -->
+        <link rel="stylesheet" href="css/styles-mobile-discover.css">
+        <link rel="stylesheet" href="css/styles-mobile-menu.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+         <!--20:h1 18:h2 14:h3 12:h4 10:h5 9:H6-->
+         <nav id="menu">
+            <div id="menu-topBar">
+                <img onclick="menuClose();" src="images/close.svg" alt="fechar">
+                <div id="menu-transition"></div>
+            </div>
+            <div id="menu-imageUser">
+                <img src="images/imageUser/BernardFuriatti.png" alt="imageUser">
+            </div>
+            <div class="menu-content">
+                <ul id="menu-primary-item">
+                    <div class="menu-primary-item-div">
+                        <a href="index.html">
+                            <p>EVENT</p>
+                        </a>
+                    </div>
+                    <div class="menu-primary-item-div">
+                        <a href="places.html">
+                            <p>PLACES</p>
+                        </a>
+                    </div>
+                    <div class="menu-primary-item-div">
+                        <a href="discover.html">
+                            <p>GROUP</p>
+                        </a>
+                    </div>
+                    <div class="menu-primary-item-div">
+                        <a href="http://192.168.0.14:8888/v0.3.4/discover.html">
+                            <p>DISCOVER</p>
+                        </a>
+                    </div>
+                </ul>
+                <ul id="menu-second-item">
+                    <div class="menu-primary-item-div">
+                        <a href="*">
+                            <p>SETTINGS</p>
+                        </a>
+                    </div>
+                    <div class="menu-primary-item-div">
+                        <a href="*">
+                            <p>LOG OUT</p>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <section class="firstSection">
+
+            <div class="firstSection-containerTop">
+                <img onclick="menuOpen()" id="menu-open" src="images/Menu.svg" alt="buttonMenu">
+                <a href="search.html"><img src="images/Search.svg" alt="buttonSearch"></a>
+            </div>
+
+        </section>
+
+        <section class="secondSection">
+            <div class="secondSection-subCategory">
+
+
+
+                <div class="recent-event">
+                    <h1>Eventos recentes</h1>
+                    <div class="recent-event-cards">
+                        <!-- Swiper -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="margin-left: 16px;">
+                                    <div id="imageEvent">
+                                        <img src="images/imageEvent/event-group-happyHourDti-eventImage.png">
+                                    </div>
+
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h6 id="dateEvent">31/dezembro - 23 hrs</h6>
+                                            <h3 id="nameEvent">Aniversário da Lu</h3>
+                                            <span id="tag-group" >happy hour dti</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div id="imageEvent">
+                                        <img src="images/imageEvent/event-group-happyHourDti-eventImage.png">
+                                    </div>
+
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h6 id="dateEvent">31/dezembro - 23 hrs</h6>
+                                            <h3 id="nameEvent">Aniversário da Lu</h3>
+                                            <span id="tag-group" >happy hour dti</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div id="imageEvent">
+                                        <img src="images/imageEvent/event-group-happyHourDti-eventImage.png">
+                                    </div>
+
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h6 id="dateEvent">31/dezembro - 23 hrs</h6>
+                                            <h3 id="nameEvent">Aniversário da Lu</h3>
+                                            <span id="tag-group" >happy hour dti</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div id="imageEvent">
+                                        <img src="images/imageEvent/event-group-happyHourDti-eventImage.png">
+                                    </div>
+
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h6 id="dateEvent">31/dezembro - 23 hrs</h6>
+                                            <h3 id="nameEvent">Aniversário da Lu</h3>
+                                            <span id="tag-group" >happy hour dti</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div id="imageEvent">
+                                        <img src="images/imageEvent/event-group-happyHourDti-eventImage.png">
+                                    </div>
+
+
+                                    <div class="event-info-container">
+                                        <div class="event-main">
+                                            <h6 id="dateEvent">31/dezembro - 23 hrs</h6>
+                                            <h3 id="nameEvent">Aniversário da Lu</h3>
+                                            <span id="tag-group" >happy hour dti</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="groups">
+                    <h3 class="groups-title">Grupos</h3>
+                    <div class="group-info-container">
+                        <div class="group-1">
+                            <div class="group-1-image">
+                                <img src="images/imageEvent/[icon]Villamix.png" alt="">
+                            </div>
+                            <div class="group-infoMain">
+                                <div class="group-infoMain-title">
+                                    <h3 id="nameGroup"> Happy Hour dti</h3>
+                                </div>
+
+                                <div class="group-nextEvent">
+                                    <img src="images/nextEvent.svg" alt="Icon Local">
+                                    <h3 id="localEvent">Próximo evento: Aniversário da Lu</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="group-1">
+                            <div class="group-1-image">
+                                <img src="images/imageEvent/[icon]Villamix.png" alt="">
+                            </div>
+                            <div class="group-infoMain">
+                                <div class="group-infoMain-title">
+                                    <h3 id="nameGroup"> Happy Hour dti</h3>
+                                </div>
+
+                                <div class="group-nextEvent">
+                                    <img src="images/nextEvent.svg" alt="Icon Local">
+                                    <h3 id="localEvent">Próximo evento: Aniversário da Lu</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="group-1">
+                            <div class="group-1-image">
+                                <img src="images/imageEvent/[icon]Villamix.png" alt="">
+                            </div>
+                            <div class="group-infoMain">
+                                <div class="group-infoMain-title">
+                                    <h3 id="nameGroup"> Happy Hour dti</h3>
+                                </div>
+
+                                <div class="group-nextEvent">
+                                    <img src="images/nextEvent.svg" alt="Icon Local">
+                                    <h3 id="localEvent">Próximo evento: Aniversário da Lu</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="group-1">
+                            <div class="group-1-image">
+                                <img src="images/imageEvent/[icon]Villamix.png" alt="">
+                            </div>
+                            <div class="group-infoMain">
+                                <div class="group-infoMain-title">
+                                    <h3 id="nameGroup"> Happy Hour dti</h3>
+                                </div>
+
+                                <div class="group-nextEvent">
+                                    <img src="images/nextEvent.svg" alt="Icon Local">
+                                    <h3 id="localEvent">Próximo evento: Aniversário da Lu</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </section>
+
+
+
+    </body>
+
+    <script src="js/swiper.min.js"></script>
+
+    <script>
+
+        function menuOpen() {
+            document.getElementById("menu").style.display = "block";
+        }
+        function menuClose() {
+            document.getElementById("menu").style.display = "none";
+        }
+
+        var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 2,
+        paginationClickable: false,
+        spaceBetween: 8,
+        freeMode: false
+        });
+
+    </script>
+
+
+
+</html>
